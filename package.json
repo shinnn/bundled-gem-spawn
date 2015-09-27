@@ -1,0 +1,46 @@
+{
+  "name": "bundled-gem-spawn",
+  "version": "1.0.0",
+  "description": "Launch a new process with the given command in a `bundle exec` context",
+  "repository": "shinnn/compass-version",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn/node-legacy index.js test.js",
+    "docker:pull": "docker pull node:onbuild",
+    "predocker:test": "npm run-script docker:pull && docker build --no-cache -t test-bundled-gem-spawn .",
+    "docker:test": "docker run --rm test-bundled-gem-spawn npm run-script coverage",
+    "test": "npm run-script docker:test",
+    "test-only": "node --strong_mode  --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode  --harmony_destructuring --throw-deprecation --track-heap-objects node_modules/.bin/istanbul cover --print=both test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ruby",
+    "gem",
+    "rubygem",
+    "bundle",
+    "bundler",
+    "spawn",
+    "launch",
+    "cmd",
+    "command",
+    "child",
+    "process",
+    "cp",
+    "bin",
+    "binary"
+  ],
+  "dependencies": {
+    "cross-spawn-async": "^2.0.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^1.0.0",
+    "concat-stream": "^1.5.1",
+    "eslint": "^1.7.3",
+    "istanbul": "^0.4.0",
+    "tape": "^4.2.2"
+  }
+}

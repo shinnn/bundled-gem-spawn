@@ -1,0 +1,4 @@
+.bundle
+coverage
+Gemfile.lock
+node_modules
