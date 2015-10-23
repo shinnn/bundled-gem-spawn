@@ -2,7 +2,7 @@
   "name": "bundled-gem-spawn",
   "version": "1.0.0",
   "description": "Launch a new process with the given command in a `bundle exec` context",
-  "repository": "shinnn/compass-version",
+  "repository": "shinnn/bundled-gem-spawn",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --config @shinnn/node-legacy index.js test.js",
@@ -39,8 +39,8 @@
   "devDependencies": {
     "@shinnn/eslint-config-node-legacy": "^1.0.0",
     "concat-stream": "^1.5.1",
-    "eslint": "^1.7.3",
-    "istanbul": "^0.4.0",
+    "eslint": "^1.10.1",
+    "istanbul": "^0.4.1",
     "tape": "^4.2.2"
   }
 }
