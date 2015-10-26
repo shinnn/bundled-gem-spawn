@@ -4,8 +4,8 @@
 [![Build Status](https://travis-ci.org/shinnn/bundled-gem-spawn.svg?branch=master)](https://travis-ci.org/shinnn/bundled-gem-spawn)
 [![Build status](https://ci.appveyor.com/api/projects/status/ssshinoo2e3fyryv/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/bundled-gem-spawn/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/bundled-gem-spawn.svg)](https://coveralls.io/github/shinnn/bundled-gem-spawn?branch=master)
-[![Dependency Status](https://img.shields.io/david/shinnn/bundled-gem-spawn.svg?label=deps)](https://david-dm.org/shinnn/bundled-gem-spawn)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/bundled-gem-spawn.svg?label=devDeps)](https://david-dm.org/shinnn/bundled-gem-spawn#info=devDependencies)
+[![Dependency Status](https://david-dm.org/shinnn/bundled-gem-spawn.svg)](https://david-dm.org/shinnn/bundled-gem-spawn)
+[![devDependency Status](https://david-dm.org/shinnn/bundled-gem-spawn/dev-status.svg)](https://david-dm.org/shinnn/bundled-gem-spawn#info=devDependencies)
 
 A [Node](https://nodejs.org/) module to launch a [new process](https://nodejs.org/api/child_process.html) with the given command in a [`bundle exec`](http://bundler.io/man/bundle-exec.1.html) context
 
