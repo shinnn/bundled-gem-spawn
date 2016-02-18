@@ -10,8 +10,8 @@
     "predocker:test": "npm run-script docker:pull && docker build --no-cache -t test-bundled-gem-spawn .",
     "docker:test": "docker run --rm test-bundled-gem-spawn npm run-script coverage",
     "test": "npm run-script docker:test",
-    "test-only": "node --strong_mode  --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
-    "coverage": "node --strong_mode  --harmony_destructuring --throw-deprecation --track-heap-objects node_modules/.bin/istanbul cover --print=both test.js"
+    "test-only": "node --strong_mode --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode --harmony_destructuring --throw-deprecation --track-heap-objects node_modules/.bin/istanbul cover --print=both test.js"
   },
   "license": "MIT",
   "files": [
@@ -37,10 +37,10 @@
     "cross-spawn-async": "^2.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node-legacy": "^1.0.0",
+    "@shinnn/eslint-config-node-legacy": "^2.0.0",
     "concat-stream": "^1.5.1",
-    "eslint": "^1.10.1",
-    "istanbul": "^0.4.1",
-    "tape": "^4.2.2"
+    "eslint": "^2.2.0",
+    "istanbul": "^0.4.2",
+    "tape": "^4.4.0"
   }
 }
