@@ -3,13 +3,11 @@ git:
 branches:
   except: /^v\d/
 language: node_js
-node_js: stable
+node_js: node
 before_install:
   - gem update bundler
   - bundle install
-script:
-  - npm run-script pretest
-  - npm run-script coverage
+script: npm run-script pretest && npm run-script coverage
 after_script:
   - npm install istanbul-coveralls
   - node node_modules/.bin/istanbul-coveralls
