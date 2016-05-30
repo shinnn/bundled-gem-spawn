@@ -1,6 +1,6 @@
 'use strict';
 
-var crossSpawn = require('cross-spawn-async');
+var crossSpawn = require('cross-spawn');
 
 module.exports = function bundledGemSpawn(gemName, args, options) {
   if (typeof gemName !== 'string') {

@@ -34,13 +34,13 @@
     "binary"
   ],
   "dependencies": {
-    "cross-spawn-async": "^2.0.0"
+    "cross-spawn": "^2.2.3"
   },
   "devDependencies": {
     "@shinnn/eslint-config-node-legacy": "^2.0.0",
     "concat-stream": "^1.5.1",
-    "eslint": "^2.2.0",
-    "istanbul": "^0.4.2",
-    "tape": "^4.4.0"
+    "eslint": "^2.11.0",
+    "istanbul": "^0.4.3",
+    "tape": "^4.5.1"
   }
 }
