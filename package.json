@@ -1,6 +1,6 @@
 {
   "name": "bundled-gem-spawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Launch a new process with the given command in a `bundle exec` context",
   "repository": "shinnn/bundled-gem-spawn",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -34,7 +34,7 @@
     "binary"
   ],
   "dependencies": {
-    "cross-spawn": "^2.2.3"
+    "cross-spawn": "^4.0.0"
   },
   "devDependencies": {
     "@shinnn/eslint-config-node-legacy": "^2.0.0",
