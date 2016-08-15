@@ -37,10 +37,10 @@
     "cross-spawn": "^4.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node-legacy": "^2.0.0",
+    "@shinnn/eslint-config-node-legacy": "^3.0.0",
     "concat-stream": "^1.5.1",
-    "eslint": "^2.11.0",
-    "istanbul": "^0.4.3",
-    "tape": "^4.5.1"
+    "eslint": "^3.3.1",
+    "istanbul": "^0.4.4",
+    "tape": "^4.6.0"
   }
 }
