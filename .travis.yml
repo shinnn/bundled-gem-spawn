@@ -5,6 +5,7 @@ branches:
 language: node_js
 node_js: node
 before_install:
+  - rvm use 2.3.1 --install --binary --fuzzy
   - gem update bundler
   - bundle install
 script: npm run-script pretest && npm run-script coverage

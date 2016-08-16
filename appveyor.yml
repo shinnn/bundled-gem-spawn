@@ -4,7 +4,7 @@ skip_tags: true
 install:
   - ps: Install-Product node 6
   - npm install
-  - SET PATH=C:\Ruby22-x64\bin;%PATH%
+  - SET PATH=C:\Ruby23-x64\bin;%PATH%
   - gem update --system
   - gem update bundler
   - ruby --version
